@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    应该什么东西都没有
+    <router-view></router-view>
   </div>
 </template>
 
