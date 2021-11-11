@@ -10,7 +10,7 @@
   "dependencies": {
     "axios": "^0.24.0",
     "core-js": "^3.6.5",
-    "element-ui": "^2.4.5",
+    "element-ui": "^2.6.3",
     "lodash": "^4.17.21",
     "vue": "^2.6.11",
     "vue-quill-editor": "^3.0.6",

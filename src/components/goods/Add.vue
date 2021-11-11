@@ -305,6 +305,7 @@ export default {
         // 发起请求
         const { data: res } = await this.$http.post("goods", form);
         if (res.meta.status !== 201) {
+          console.log(res.meta.msg);
           return this.$message.error("添加商品失败");
         }
         this.$message.success("添加商品成功");
